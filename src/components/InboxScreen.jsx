@@ -20,7 +20,7 @@ export default function InboxScreen() {
         <div className="wrapper-message">
           <span className="icon-face-sad" />
           <p className="title-message">Oh no!</p>
-          <p className="subtitle-message">Something went wrong</p>
+          <p className="subtitle-message">Something went wrong, try again</p>
         </div>
       </div>
     );
