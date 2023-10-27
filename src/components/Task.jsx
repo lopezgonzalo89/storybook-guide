@@ -7,7 +7,12 @@ export default function Task({
   onPinTask,
 }) {
   return (
-    <div className={`list-item ${state}`}>
+    <div
+      className={`list-item ${state}`}
+      style={{
+        border: "1px solid red",
+      }}
+    >
       <label
         htmlFor="checked"
         aria-label={`archiveTask-${id}`}
